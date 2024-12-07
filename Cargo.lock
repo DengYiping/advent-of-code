@@ -3,6 +3,10 @@
 version = 3
 
 [[package]]
+name = "advent-of-code-2024-day-7"
+version = "0.1.0"
+
+[[package]]
 name = "advent-of-code-2024-day1-3"
 version = "0.1.0"
 dependencies = [
