@@ -1,4 +1,4 @@
-use std::{clone, io::{self, BufRead}};
+use std::io::{self, BufRead};
 
 pub fn read() -> Vec<Vec<u8>> {
     let mut result: Vec<Vec<u8>> = vec![];
