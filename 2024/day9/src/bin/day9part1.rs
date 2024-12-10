@@ -1,5 +1,3 @@
-use std::fs::File;
-
 use advent_of_code_2024_day_9::reading::{read, DiskSegment};
 
 fn main() {
