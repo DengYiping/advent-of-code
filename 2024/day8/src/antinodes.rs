@@ -216,7 +216,7 @@ mod tests {
         let board_size = BoardSize::new(5, 5);
         let coordinates = vec![Coordinate::new(1, 1), Coordinate::new(2, 2)];
         let mut reflections: HashSet<Coordinate> = HashSet::new();
-        all_reflections(&coordinates, &board_size, &mut reflections);
+        all_reflections(&coordinates, &board_size, &mut reflections, |x, y, board| x.reflections(y, board));
         assert_eq!(reflections.len(), 2);
         assert!(reflections.contains(&Coordinate::new(3, 3)));
         assert!(reflections.contains(&Coordinate::new(0, 0)));
